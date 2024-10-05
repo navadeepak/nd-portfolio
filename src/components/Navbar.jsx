@@ -43,29 +43,22 @@ export default function Navbar() {
 
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
-      <div className="flex w-full items-center flex-col py-10">
+      <div className="flex w-full items-center flex-col py-10 gap-10">
+
         <p className="font-semibold text-black text-xl">MENU</p>
-        <List>
+        <div className="h-full flex flex-col gap-5">
           {sideBarData.map((data, key) => (
-            <div key={key} className="flex flex-row items-center gap-3 space-y-5">
-              <p className="rounded-full shadow-[0_0_5px_0] shadow-zinc-400 p-2">{data.icon}</p>
-              <p className="h-full">{data.title}</p>
+            <div
+              key={key}
+              className="flex items-center gap-3 hover:bg-gray-200 p-2 rounded-full"
+            >
+              <div className="rounded-full shadow-[0_0_5px_0] shadow-zinc-400 p-2 flex items-center justify-center bg-white">
+                {data.icon}
+              </div>
+              <p className="flex-1">{data.title}</p>
             </div>
           ))}
-        </List>
-        <Divider />
-        <List>
-          {["All mail", "Trash", "Spam"].map((text, index) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
+        </div>
       </div>
     </Box>
   );
