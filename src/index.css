@@ -8,3 +8,22 @@
 body{
     background-color: #18181b;
 }
+.typing-animation {
+    border-right: 4px solid white; /* Cursor */
+    white-space: nowrap;
+    overflow: hidden; /* Hide the overflowing text */
+    animation: blink-caret 0.75s step-end infinite; /* Blinking caret animation */
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
+  
+  ::-webkit-scrollbar{
+    display: none !important;
+  }

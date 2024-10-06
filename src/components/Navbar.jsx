@@ -46,7 +46,7 @@ export default function Navbar() {
               <Link
                 to={data.to}
                 key={key}
-                className="flex items-center gap-3 hover:bg-gray-200 p-2 cursor-pointer  rounded-full duration-200"
+                className="flex items-center gap-3 hover:bg-[#4ade80] p-2 cursor-pointer  rounded-full duration-200"
                 onClick={(e) => {
                   e.preventDefault();
                   handleDialog();
@@ -67,7 +67,7 @@ export default function Navbar() {
   );
   return (
     <Router>
-      <div className="w-full h-[8vh] bg-zinc-200 flex items-center justify-between p-5">
+      <div className="w-full h-[8vh] bg-zinc-200 flex items-center justify-between p-5 sticky top-0">
         <IoMenu className="w-6 h-6 cursor-pointer" onClick={handleDialog} />
         <div className="flex flex-row items-center justify-between gap-5">
           <Avatar

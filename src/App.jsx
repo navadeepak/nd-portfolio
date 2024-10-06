@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div className="relative">
+      <Navbar/>
       <div className="w-full h-[90vh] text-white">
         <Router>
           <Routes>
