@@ -67,7 +67,7 @@ export default function Navbar() {
   );
   return (
     <Router>
-      <div className="w-full h-[8vh] bg-zinc-200 flex items-center justify-between p-5 sticky top-0">
+      <div className="w-full h-[8vh] bg-zinc-200 flex items-center justify-between p-5 sticky top-0 z-50">
         <IoMenu className="w-6 h-6 cursor-pointer" onClick={handleDialog} />
         <div className="flex flex-row items-center justify-between gap-5">
           <Avatar

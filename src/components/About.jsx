@@ -24,7 +24,7 @@ function About() {
               : "rotate-0 shadow-[3px_0_5px_0] shadow-zinc-300 border-r group-hover:shadow-none"
           }`}
         />
-        <p className="px-2 font-medium">{contentChange ? "Back" : "More"}</p>
+        <p className="px-2 font-medium text-[#4ade80] group-hover:text-white">{contentChange ? "Back" : "More"}</p>
       </button>
     </div>
   );
