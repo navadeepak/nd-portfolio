@@ -90,7 +90,7 @@ const SkillGroup = ({ title, titleIcon, items }) => (
 
 function Skill() {
   return (
-    <div className="p-5 flex flex-col items-center justify-between gap-20">
+    <div className="p-5 flex flex-col items-center justify-between h-[90vh] w-full">
       {skillGroups.map((group) => (
         <SkillGroup key={group.title} {...group} />
       ))}
