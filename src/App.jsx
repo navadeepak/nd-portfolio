@@ -5,12 +5,13 @@ import Skill from "./components/Skill";
 import Experiences from "./components/Experiences";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import SkillExp from "./components/skill Explore/SkillExp";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="relative">
-      <Navbar/>
+      <Navbar />
       <div className="w-full h-[90vh] text-white">
         <Router>
           <Routes>
@@ -19,6 +20,7 @@ function App() {
             <Route path="/skill" element={<Skill />} />
             <Route path="/experiences" element={<Experiences />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/skillexplore" element={<SkillExp />} />
           </Routes>
         </Router>
       </div>

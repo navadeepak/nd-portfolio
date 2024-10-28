@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
   FaReact,
   FaHtml5,
@@ -18,6 +19,7 @@ import { TbBrandJavascript, TbPrompt } from "react-icons/tb";
 import { SiMongodb, SiMui, SiPrimereact, SiGnubash } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoVercel } from "react-icons/io5";
+import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 
 const skillGroups = [
   {
@@ -89,11 +91,35 @@ const SkillGroup = ({ title, titleIcon, items }) => (
 );
 
 function Skill() {
+  const navigate = useNavigate();
+
   return (
-    <div className="p-5 flex flex-col items-center justify-between h-[90vh] w-full">
-      {skillGroups.map((group) => (
-        <SkillGroup key={group.title} {...group} />
-      ))}
+    <div className="flex flex-col items-center justify-center p-5 w-full">
+      <div className="flex flex-row items-center justify-between gap-5 mb-5 w-full">
+        <button
+          onClick={() => navigate(-1)}
+          className="bg-[--green-color] text-white rounded-full text-center group hover:w-[150px] w-[50px] text-nowrap justify-center items-center duration-300"
+        >
+          <p className="group-hover:flex hidden w-full h-8 items-center justify-center">
+            Go Back
+          </p>
+          <BsArrowLeftShort className="group-hover:hidden flex w-full h-8 items-center justify-center text-center" />
+        </button>
+        <button
+          onClick={() => navigate("/skillexplore")}
+          className="bg-[--green-color] text-white rounded-full text-center group hover:w-[150px] w-[50px] text-nowrap justify-center items-center duration-300"
+        >
+          <p className="group-hover:flex hidden w-full h-8 items-center justify-center">
+            Explore More
+          </p>
+          <BsArrowRightShort className="group-hover:hidden flex w-full h-8 items-center justify-center text-center" />
+        </button>
+      </div>
+      <div className="p-5 flex flex-col items-center justify-between min-h-[90vh] w-full border-2 border-zinc-500 rounded-lg">
+        {skillGroups.map((group) => (
+          <SkillGroup key={group.title} {...group} />
+        ))}
+      </div>
     </div>
   );
 }
