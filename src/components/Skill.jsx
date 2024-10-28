@@ -77,15 +77,17 @@ const SkillItem = ({ Icon, name }) => (
 );
 
 const SkillGroup = ({ title, titleIcon, items }) => (
-  <div>
-    <p className="text-xl flex flex-row items-center justify-center font-bold mb-4 gap-5">
+  <div className="flex flex-col p-5 w-full">
+    <p className="text-xl flex flex-row items-center font-bold mb-4 gap-5 bg-[--green-color] w-fit px-5 py-2 rounded-full">
       {titleIcon}
       {title}
     </p>
-    <div className="flex flex-wrap items-center gap-5 mb-8 bg-zinc-300 p-5 rounded-full bg-opacity-30">
-      {items.map(({ Icon, name }) => (
-        <SkillItem key={name} Icon={Icon} name={name} />
-      ))}
+    <div className="flex flex-wrap items-center gap-5  w-full p-10 rounded-full ">
+      <div className="flex flex-row gap-5 w-full bg-zinc-300 bg-opacity-30 rounded-full p-5">
+        {items.map(({ Icon, name }) => (
+          <SkillItem key={name} Icon={Icon} name={name} />
+        ))}
+      </div>
     </div>
   </div>
 );
@@ -115,7 +117,7 @@ function Skill() {
           <BsArrowRightShort className="group-hover:hidden flex w-full h-8 items-center justify-center text-center" />
         </button>
       </div>
-      <div className="p-5 flex flex-col items-center justify-between min-h-[90vh] w-full border-2 border-zinc-500 rounded-lg">
+      <div className="p-5 flex flex-col items-center justify-between max-h-[79vh] overflow-scroll w-full border-2 border-zinc-500 rounded-lg">
         {skillGroups.map((group) => (
           <SkillGroup key={group.title} {...group} />
         ))}
