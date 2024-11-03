@@ -4,21 +4,21 @@ function AboutFirst() {
   return (
     <div className="h-[85vh] flex items-center justify-center">
       <p className="flex flex-col gap-10">
-        <span className="flex flex-nowrap text-5xl">
+        <span className="flex flex-nowrap max-md:text-2xl max-lg:text-3xl text-5xl">
           <span className="text-[#4ade80] flex">H</span>ello,
         </span>
         <p className=" flex flex-col gap-5">
           {" "}
-          <span className=" text-8xl first-letter:text-[#4ade80]">
+          <span className="max-md:text-2xl max-lg:text-3xl text-8xl first-letter:text-[#4ade80]">
             I'm Navadeepak{" "}
           </span>{" "}
-          <span className="flex flex-row gap-5">
-            <span className="text-3xl">as a</span>{" "}
-            <span className="overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-4xl text-[#4ade80] font-bold typing-animation">
+          <span className="flex flex-row max-lg:flex-col gap-5">
+            <span className="text-3xl max-md:text-sm max-lg:text-xl">as a</span>{" "}
+            <span className="overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 max-md:text-base max-lg:text-2xl text-4xl text-[#4ade80] font-bold typing-animation">
               {(() => {
                 const texts = [
-                  "Frontend Web Developer",
-                  "CSS Developer",
+                  "Frontend Developer",
+                  "CSS Designer",
                   "React Developer",
                 ];
                 const [currentIndex, setCurrentIndex] = React.useState(0);

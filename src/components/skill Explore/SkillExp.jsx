@@ -31,15 +31,15 @@ function SkillExp() {
         </button>
       </div>
       <div className="flex flex-col items-center p-5 w-full border-2 rounded-lg border-zinc-500 h-[79vh] gap-5 overflow-scroll">
-        <section className="flex flex-row items-center justify-center p-5 gap-5 w-full h-[70vh] bg-white rounded-lg bg-opacity-10">
-          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+        <section className="flex flex-row max-lg:flex-col items-center justify-center p-5 gap-5 w-full h-[70vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <FaReact
               className="w-40 h-40 animate-spin"
               style={{ animationDuration: "4s" }}
             />
-            <p className=" font-semibold text-5xl text-[#4ade80]">React JS</p>
+            <p className=" font-semibold text-5xl max-sm:text-3xl text-[#4ade80]">React JS</p>
           </div>
-          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <p className="p-10">
               With a solid foundation in{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
@@ -82,14 +82,14 @@ function SkillExp() {
             </p>
           </div>
         </section>
-        <section className="flex flex-row items-center justify-center p-5 gap-5 w-full h-[70vh] bg-white rounded-lg bg-opacity-10">
-          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+        <section className="flex flex-row max-lg:flex-col items-center justify-center p-5 gap-5 w-full h-[70vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <RiTailwindCssFill className="w-40 h-40" />
-            <p className=" font-semibold text-5xl text-[#4ade80]">
+            <p className=" font-semibold text-5xl max-sm:text-3xl text-[#4ade80]">
               Tailwind CSS
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <p className="p-10">
               With a{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
@@ -137,18 +137,18 @@ function SkillExp() {
             </p>
           </div>
         </section>
-        <section className="flex flex-row items-center justify-center p-5 gap-5 w-full h-[70vh] bg-white rounded-lg bg-opacity-10">
-          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+        <section className="flex flex-row max-lg:flex-col items-center justify-center p-5 gap-5 w-full h-[70vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <FaGithub className="w-40 h-40" />
-            <p className=" font-semibold text-5xl text-[#4ade80]">Github</p>
+            <p className=" font-semibold text-5xl max-sm:text-3xl text-[#4ade80]">Github</p>
           </div>
-          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <p className="p-10">
               I also have experience using{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
                 GitHub
               </span>
-              , which allows me to work
+              , which allows me to work{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
                 collaboratively
               </span>
@@ -158,46 +158,46 @@ function SkillExp() {
               </span>
               , and contribute to projects{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
-                efficiently
+                efficiently{" "}
               </span>
               . My familiarity with GitHub workflows, including{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
-                branching
+                branching{" "}
               </span>
               ,{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
-                merging
+                merging{" "}
               </span>
               , and{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
-                resolving conflicts
+                resolving conflicts{" "}
               </span>
               , ensures smooth project collaboration and{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
-                code management
+                code management{" "}
               </span>
               . This experience is essential for maintaining a{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
-                well-organized
+                well-organized{" "}
               </span>{" "}
               and{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
-                dynamic
+                dynamic{" "}
               </span>
               development process in{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
-                team environments
+                team environments{" "}
               </span>
               .
             </p>
           </div>
         </section>
-        <section className="flex flex-row items-center justify-center p-5 gap-5 w-full h-[70vh] bg-white rounded-lg bg-opacity-10">
-          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+        <section className="flex flex-row max-lg:flex-col items-center justify-center p-5 gap-5 w-full h-[70vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <FaNode className="w-40 h-40" />
-            <p className=" font-semibold text-5xl text-[#4ade80]">Node.js</p>
+            <p className=" font-semibold text-5xl max-sm:text-3xl text-[#4ade80]">Node.js</p>
           </div>
-          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <p className="p-10">
               With a{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
@@ -243,12 +243,12 @@ function SkillExp() {
             </p>
           </div>
         </section>
-        <section className="flex flex-row items-center justify-center p-5 gap-5 w-full h-[70vh] bg-white rounded-lg bg-opacity-10">
-          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+        <section className="flex flex-row max-lg:flex-col items-center justify-center p-5 gap-5 w-full h-[70vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <VscVscode className="w-40 h-40" />
-            <p className=" font-semibold text-5xl text-[#4ade80]">VS Code</p>
+            <p className=" font-semibold text-5xl max-sm:text-3xl text-[#4ade80]">VS Code</p>
           </div>
-          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <p className="p-10">
               Proficient in using{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
@@ -299,12 +299,12 @@ function SkillExp() {
             </p>
           </div>
         </section>
-        <section className="flex flex-row items-center justify-center p-5 gap-5 w-full h-[70vh] bg-white rounded-lg bg-opacity-10">
-          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+        <section className="flex flex-row max-lg:flex-col items-center justify-center p-5 gap-5 w-full h-[70vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <FaLinux className="w-40 h-40" />
-            <p className=" font-semibold text-5xl text-[#4ade80]">Linux</p>
+            <p className=" font-semibold text-5xl max-sm:text-3xl text-[#4ade80]">Linux</p>
           </div>
-          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <p className="p-10">
               Proficient in{" "}
               <span className=" font-semibold text-2xl text-[#4ade80]">
@@ -332,12 +332,12 @@ function SkillExp() {
             </p>
           </div>
         </section>
-        <section className="flex flex-row items-center justify-center p-5 gap-5 w-full h-[70vh] bg-white rounded-lg bg-opacity-10">
-          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+        <section className="flex flex-row max-lg:flex-col items-center justify-center p-5 gap-5 w-full h-[70vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col gap-5 items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <IoLogoVercel className="w-40 h-40" />
-            <p className=" font-semibold text-5xl text-[#4ade80]">Vercel</p>
+            <p className=" font-semibold text-5xl max-sm:text-3xl text-[#4ade80]">Vercel</p>
           </div>
-          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] bg-white rounded-lg bg-opacity-10">
+          <div className="flex flex-col items-center justify-center p-5 w-full h-[65vh] max-lg:h-fit bg-white rounded-lg bg-opacity-10">
             <p className="p-10">
               With a basic understanding of <span className=" font-semibold text-2xl text-[#4ade80]">Vercel</span>, I am familiar with <span className=" font-semibold text-2xl text-[#4ade80]">deploying web applications </span>
               and <span className=" font-semibold text-2xl text-[#4ade80]">managing hosting</span> environments. I know how to

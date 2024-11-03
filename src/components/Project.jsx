@@ -273,10 +273,10 @@ const Project = () => {
             </section>
           </div>
         ) : (
-          <div className="grid grid-cols-3 gap-5 max-h-[79vh] border-2 border-zinc-500 rounded-lg overflow-y-scroll p-5">
-            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
+          <div className="grid grid-cols-3 max-sm:grid-cols-1 max-sm:text-center max-lg:grid-cols-2 gap-5 max-h-[79vh] border-2 border-zinc-500 rounded-lg overflow-y-scroll p-5">
+            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg max-sm:w-full">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   Food Order App
                 </p>
               </div>
@@ -286,7 +286,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">React JS, CSS</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/newReactFood.git"
@@ -301,9 +301,9 @@ const Project = () => {
                 </a>
               </div>
             </section>
-            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
+            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg max-sm:w-full">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   Weather App
                 </p>
               </div>
@@ -313,7 +313,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">HTML, JS, CSS, APIs</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/weather.git"
@@ -330,7 +330,7 @@ const Project = () => {
             </section>
             <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   TIC TAC TOE Game
                 </p>
               </div>
@@ -340,7 +340,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">HTML, JS, CSS</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/tictactoe-game.git"
@@ -355,9 +355,9 @@ const Project = () => {
                 </a>
               </div>
             </section>
-            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
+            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg max-sm:w-full">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   Food First
                 </p>
               </div>
@@ -367,7 +367,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">HTML, JS, CSS</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/FoodFirst.git"
@@ -382,9 +382,9 @@ const Project = () => {
                 </a>
               </div>
             </section>
-            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
+            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg max-sm:w-full">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   Food First V2
                 </p>
               </div>
@@ -394,7 +394,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">HTML, JS, CSS</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/FoodFirstV2.git"
@@ -409,9 +409,9 @@ const Project = () => {
                 </a>
               </div>
             </section>
-            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
+            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg max-sm:w-full">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   Cars Details
                 </p>
               </div>
@@ -421,7 +421,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">HTML, JS, CSS</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/cars.git"
@@ -436,9 +436,9 @@ const Project = () => {
                 </a>
               </div>
             </section>
-            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
+            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg max-sm:w-full">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   Age Calculator
                 </p>
               </div>
@@ -448,7 +448,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">HTML, JS, CSS</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/age-calculator.git"
@@ -463,9 +463,9 @@ const Project = () => {
                 </a>
               </div>
             </section>
-            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
+            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg max-sm:w-full">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   Portfolio 1
                 </p>
               </div>
@@ -475,7 +475,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">HTML, JS, CSS</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/portfolio-dynamic.git"
@@ -490,9 +490,9 @@ const Project = () => {
                 </a>
               </div>
             </section>
-            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg">
+            <section className="flex flex-col gap-5 bg-white bg-opacity-20 p-5 rounded-lg max-sm:w-full">
               <div>
-                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit">
+                <p className="text-2xl font-semibold border-b border-[--green-color] w-fit max-sm:w-full">
                   Portfolio 2
                 </p>
               </div>
@@ -502,7 +502,7 @@ const Project = () => {
                 </p>
                 <p className="text-[--green-color]">HTML, JS, CSS</p>
               </div>
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 max-sm:justify-between">
                 <a
                   className="text-xl font-semibold bg-[--green-color] text-black w-fit px-5 rounded-full"
                   href="https://github.com/navadeepak/portfolio-advance.git"

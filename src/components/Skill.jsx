@@ -72,18 +72,18 @@ const SkillItem = ({ Icon, name }) => (
     <div className="text-[--green-color] bg-white w-16 h-16 p-2 rounded-full z-20 flex items-center justify-center">
       <Icon className="w-8 h-8" />
     </div>
-    <p className="text-black z-20 p-2 mr-2 font-semibold">{name}</p>
+    <p className="text-black text-nowrap z-20 p-2 mr-2 font-semibold">{name}</p>
   </div>
 );
 
 const SkillGroup = ({ title, titleIcon, items }) => (
-  <div className="flex flex-col p-5 w-full">
+  <div className="flex flex-col p-5 max-sm:py-5 w-full">
     <p className="text-xl flex flex-row items-center font-bold mb-4 gap-5 bg-[--green-color] w-fit px-5 py-2 rounded-full">
       {titleIcon}
       {title}
     </p>
-    <div className="flex flex-wrap items-center gap-5  w-full p-10 rounded-full ">
-      <div className="flex flex-row gap-5 w-full bg-zinc-300 bg-opacity-30 rounded-full p-5">
+    <div className="flex flex-wrap items-center gap-5  w-full p-10 rounded-full max-sm:p-1">
+      <div className="flex flex-row gap-5  bg-zinc-300 bg-opacity-30 rounded-full max-sm:rounded-lg p-5 w-fit max-2xl:overflow-scroll">
         {items.map(({ Icon, name }) => (
           <SkillItem key={name} Icon={Icon} name={name} />
         ))}
@@ -117,7 +117,7 @@ function Skill() {
           <BsArrowRightShort className="group-hover:hidden flex w-full h-8 items-center justify-center text-center" />
         </button>
       </div>
-      <div className="p-5 flex flex-col items-center justify-between max-h-[79vh] overflow-scroll w-full border-2 border-zinc-500 rounded-lg">
+      <div className="p-5 max-sm:p-1 flex flex-col max-sm:gap-10 items-center justify-between max-h-[79vh] overflow-scroll w-full border-2 border-zinc-500 rounded-lg">
         {skillGroups.map((group) => (
           <SkillGroup key={group.title} {...group} />
         ))}

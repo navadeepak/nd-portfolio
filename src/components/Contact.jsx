@@ -8,14 +8,14 @@ function Contact() {
           Contact
         </p>
       </div>
-      <div className="bg-white p-5 mt-10 rounded-lg shadow-lg bg-opacity-10 w-[500px]">
+      <div className="bg-white p-5 mt-10 rounded-lg shadow-lg bg-opacity-10 w-[500px] max-md:w-fit">
         <div>
           <p className="font-semibold text-2xl">
             If you have any questions or inquiries, please feel free to contact
             me at:
           </p>
           <hr className="my-2" />
-          <p className="font-semibold text-2xl flex flex-col">
+          <p className="font-semibold text-2xl max-md:text-base flex flex-col">
             Email:{" "}
             <a
               href="mailto:navadeepakaswin007@gmail.com"
@@ -24,7 +24,7 @@ function Contact() {
               navadeepakaswin007@gmail.com
             </a>
           </p>
-          <p className="font-semibold text-2xl flex flex-col">
+          <p className="font-semibold text-2xl max-md:text-base flex flex-col">
             Phone:{" "}
             <a
               href="tel:+917603857110"

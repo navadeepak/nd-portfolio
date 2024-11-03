@@ -14,7 +14,7 @@ function About() {
         <AboutSecond />
       </div>
       <button
-        className="flex flex-row items-center justify-center gap-5 bg-white hover:bg-[#4ade80] duration-200 text-black rounded-full group"
+        className="flex flex-row max-lg:fixed max-lg:bottom-5 items-center justify-center gap-5 bg-white hover:bg-[#4ade80] duration-200 text-black rounded-full group"
         onClick={() => setContentChange(!contentChange)}
       >
         <BsArrowRightShort
