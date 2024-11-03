@@ -3,7 +3,7 @@ import React from "react";
 function AboutFirst() {
   return (
     <div className="h-[85vh] flex items-center justify-center">
-      <p className="flex flex-col gap-10">
+      <p className="flex flex-col gap-10 max-md:gap-1">
         <span className="flex flex-nowrap max-md:text-2xl max-lg:text-3xl text-5xl">
           <span className="text-[#4ade80] flex">H</span>ello,
         </span>
