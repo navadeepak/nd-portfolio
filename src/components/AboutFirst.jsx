@@ -7,12 +7,12 @@ function AboutFirst() {
         <span className="flex flex-nowrap max-md:text-2xl max-lg:text-3xl text-5xl">
           <span className="text-[#4ade80] flex">H</span>ello,
         </span>
-        <p className=" flex flex-col gap-5">
+        <p className=" flex flex-col gap-5 max-md:gap-0">
           {" "}
           <span className="max-md:text-2xl max-lg:text-3xl text-8xl first-letter:text-[#4ade80]">
             I'm Navadeepak{" "}
           </span>{" "}
-          <span className="flex flex-row max-lg:flex-col gap-5">
+          <span className="flex flex-row max-lg:flex-col gap-5 max-md:gap-0">
             <span className="text-3xl max-md:text-sm max-lg:text-xl">as a</span>{" "}
             <span className="overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 max-md:text-base max-lg:text-2xl text-4xl text-[#4ade80] font-bold typing-animation">
               {(() => {
